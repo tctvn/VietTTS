@@ -4,6 +4,12 @@ VietTTS là ứng dụng WinForms nhỏ để chuyển văn bản tiếng Việt
 
 Ứng dụng target **.NET Framework 4.8**, phù hợp để chạy trên Windows 10/11 mà người dùng thường không cần cài thêm .NET Runtime riêng.
 
+## Tải về
+
+> **[⬇ Tải VietTTS.exe (portable, không cần cài đặt)](https://github.com/tctvn/VietTTS/releases/download/test/VietTTS.exe)**
+
+Chỉ cần tải file `VietTTS.exe` về và chạy thẳng trên Windows 10/11 — không cần cài thêm gì.
+
 ## Tính năng
 
 - Chỉ dùng giọng tiếng Việt, ưu tiên **Microsoft An**.
