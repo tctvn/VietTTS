@@ -8,6 +8,30 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <DebugType>None</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ILRepack.Lib.MSBuild.Task" Version="2.0.34.2" />
+  </ItemGroup>
+
+  <Target Name="ILRepack" AfterTargets="Build" Condition="'$(Configuration)' == 'Release'">
+    <ItemGroup>
+      <InputAssemblies Include="$(OutputPath)System.Runtime.WindowsRuntime.dll" />
+    </ItemGroup>
+    <ILRepack
+      Internalize="true"
+      InputAssemblies="@(InputAssemblies)"
+      MainAssembly="$(OutputPath)$(AssemblyName).exe"
+      OutputFile="$(OutputPath)$(AssemblyName).exe"
+    />
+    <Delete Files="$(OutputPath)System.Runtime.WindowsRuntime.dll" />
+    <Delete Files="$(OutputPath)Windows.winmd" />
+    <Delete Files="$(OutputPath)$(AssemblyName).exe.config" />
+  </Target>
+
   <ItemGroup>
     <Reference Include="Windows">
       <HintPath>C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd</HintPath>

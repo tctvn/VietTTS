@@ -48,17 +48,29 @@ Build Debug:
 dotnet build VietTTS.csproj
 ```
 
-Build Release:
+Build Release (xuất 1 file EXE portable duy nhất):
 
 ```powershell
 dotnet build VietTTS.csproj -c Release
 ```
 
-File chạy Release nằm ở:
+Sau khi build, thư mục output chỉ còn **một file duy nhất**:
 
 ```text
 bin\Release\net48\VietTTS.exe
 ```
+
+Copy file này đến bất kỳ máy Windows 10/11 nào và chạy thẳng — không cần cài thêm gì.
+
+## Đóng góp
+
+Mọi đóng góp đều được chào đón! Bạn có thể tham gia bằng các cách sau:
+
+- **Fork** repo này về tài khoản của bạn và tự do thử nghiệm, cải tiến.
+- **Commit & Pull Request** — sau khi sửa hoặc thêm tính năng, mở Pull Request để tích hợp vào nhánh chính. Vui lòng mô tả rõ thay đổi trong PR.
+- **Issues** — nếu gặp lỗi hoặc có ý tưởng mới, hãy [mở Issue](../../issues/new) để thảo luận trước khi code.
+
+> Nếu đây là lần đầu bạn đóng góp mã nguồn mở, hãy tham khảo [hướng dẫn fork & pull request của GitHub](https://docs.github.com/en/get-started/quickstart/contributing-to-projects).
 
 ## Ghi chú kỹ thuật
 
