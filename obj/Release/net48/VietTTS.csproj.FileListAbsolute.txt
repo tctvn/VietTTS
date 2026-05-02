@@ -1,0 +1,13 @@
+C:\vscode\giongviet\VietTTS\bin\Release\net48\VietTTS.exe.config
+C:\vscode\giongviet\VietTTS\bin\Release\net48\VietTTS.exe
+C:\vscode\giongviet\VietTTS\bin\Release\net48\VietTTS.pdb
+C:\vscode\giongviet\VietTTS\bin\Release\net48\System.Runtime.WindowsRuntime.dll
+C:\vscode\giongviet\VietTTS\bin\Release\net48\Windows.winmd
+C:\vscode\giongviet\VietTTS\obj\Release\net48\VietTTS.csproj.AssemblyReference.cache
+C:\vscode\giongviet\VietTTS\obj\Release\net48\VietTTS.GeneratedMSBuildEditorConfig.editorconfig
+C:\vscode\giongviet\VietTTS\obj\Release\net48\VietTTS.AssemblyInfoInputs.cache
+C:\vscode\giongviet\VietTTS\obj\Release\net48\VietTTS.AssemblyInfo.cs
+C:\vscode\giongviet\VietTTS\obj\Release\net48\VietTTS.csproj.CoreCompileInputs.cache
+C:\vscode\giongviet\VietTTS\obj\Release\net48\VietTTS.csproj.Up2Date
+C:\vscode\giongviet\VietTTS\obj\Release\net48\VietTTS.exe
+C:\vscode\giongviet\VietTTS\obj\Release\net48\VietTTS.pdb
