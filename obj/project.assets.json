@@ -1,12 +1,42 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.8": {},
-    ".NETFramework,Version=v4.8/win-x86": {}
+    ".NETFramework,Version=v4.8": {
+      "ILRepack.Lib.MSBuild.Task/2.0.34.2": {
+        "type": "package",
+        "build": {
+          "build/ILRepack.Lib.MSBuild.Task.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "ILRepack.Lib.MSBuild.Task/2.0.34.2": {
+        "type": "package",
+        "build": {
+          "build/ILRepack.Lib.MSBuild.Task.targets": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ILRepack.Lib.MSBuild.Task/2.0.34.2": {
+      "sha512": "tXuZZbIqiODq/yESIz04p97ZLCy4Uh21cSJdvKEl6T4BBQ5s7QnVycg2lfXwtXuhis6pwH5MuEQCi4pKP+xvsA==",
+      "type": "package",
+      "path": "ilrepack.lib.msbuild.task/2.0.34.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/ILRepack.Lib.MSBuild.Task.dll",
+        "build/ILRepack.Lib.MSBuild.Task.targets",
+        "ilrepack.lib.msbuild.task.2.0.34.2.nupkg.sha512",
+        "ilrepack.lib.msbuild.task.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v4.8": []
+    ".NETFramework,Version=v4.8": [
+      "ILRepack.Lib.MSBuild.Task >= 2.0.34.2"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\u\\.nuget\\packages\\": {}
@@ -14,11 +44,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\vscode\\giongviet\\VietTTS\\VietTTS.csproj",
+      "projectUniqueName": "C:\\vscode\\VietTTS\\VietTTS.csproj",
       "projectName": "VietTTS",
-      "projectPath": "C:\\vscode\\giongviet\\VietTTS\\VietTTS.csproj",
+      "projectPath": "C:\\vscode\\VietTTS\\VietTTS.csproj",
       "packagesPath": "C:\\Users\\u\\.nuget\\packages\\",
-      "outputPath": "C:\\vscode\\giongviet\\VietTTS\\obj\\",
+      "outputPath": "C:\\vscode\\VietTTS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\u\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -50,6 +80,12 @@
     "frameworks": {
       "net48": {
         "targetAlias": "net48",
+        "dependencies": {
+          "ILRepack.Lib.MSBuild.Task": {
+            "target": "Package",
+            "version": "[2.0.34.2, )"
+          }
+        },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203\\RuntimeIdentifierGraph.json"
       }
     },

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wk9fP55AsWA=",
+  "dgSpecHash": "Okprb8D+9ww=",
   "success": true,
-  "projectFilePath": "C:\\vscode\\giongviet\\VietTTS\\VietTTS.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\vscode\\VietTTS\\VietTTS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\u\\.nuget\\packages\\ilrepack.lib.msbuild.task\\2.0.34.2\\ilrepack.lib.msbuild.task.2.0.34.2.nupkg.sha512"
+  ],
   "logs": []
 }

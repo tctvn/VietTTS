@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\vscode\\giongviet\\VietTTS\\VietTTS.csproj": {}
+    "C:\\vscode\\VietTTS\\VietTTS.csproj": {}
   },
   "projects": {
-    "C:\\vscode\\giongviet\\VietTTS\\VietTTS.csproj": {
+    "C:\\vscode\\VietTTS\\VietTTS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\vscode\\giongviet\\VietTTS\\VietTTS.csproj",
+        "projectUniqueName": "C:\\vscode\\VietTTS\\VietTTS.csproj",
         "projectName": "VietTTS",
-        "projectPath": "C:\\vscode\\giongviet\\VietTTS\\VietTTS.csproj",
+        "projectPath": "C:\\vscode\\VietTTS\\VietTTS.csproj",
         "packagesPath": "C:\\Users\\u\\.nuget\\packages\\",
-        "outputPath": "C:\\vscode\\giongviet\\VietTTS\\obj\\",
+        "outputPath": "C:\\vscode\\VietTTS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\u\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net48": {
           "targetAlias": "net48",
+          "dependencies": {
+            "ILRepack.Lib.MSBuild.Task": {
+              "target": "Package",
+              "version": "[2.0.34.2, )"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203\\RuntimeIdentifierGraph.json"
         }
       },
